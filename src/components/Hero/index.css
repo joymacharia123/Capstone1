@@ -1,0 +1,16 @@
+section{
+    color: white;
+    margin-top: 200px;
+    margin-left: 50px;
+
+    .edit-1{
+        font-size: 100px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .edit-2{
+        font-size: 150px;
+        margin-left: 100px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}

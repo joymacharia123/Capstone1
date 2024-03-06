@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    gap: 800px;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 60px;
+    background-color:rgba(0,0,0,0.8);
+    margin-top: 40px;
+    color: white;
+
+
+    .edit-1{
+        width: 100px;
+        height: 100px;
+
+        >img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .edit-2{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+
+        >button{
+            width: 100px;
+            height: 30px;
+            border: 1px solid goldenrod;
+            border-radius: 5px;
+            background-color: transparent;
+            color: white;
+        }
+
+        .links{
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            text-decoration: none;
+
+        }
+    }
+
+
+
+}
