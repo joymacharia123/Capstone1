@@ -4,6 +4,7 @@ import App from './pages/App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import About from './pages/About.jsx'
+import Events from './pages/Events.jsx'
 
 const urls = [
   {
@@ -14,6 +15,10 @@ const urls = [
   {
     path: '/about',
     element:<About/>
+  },
+  {
+    path: '/events',
+    element:<Events/>
   },
 ]
 

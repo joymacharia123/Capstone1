@@ -1,0 +1,9 @@
+.app-edit{
+    background:rgba(0, 0, 0, 0.2)  url('./src/assets/chef-logo.avif');
+        background-size: cover;
+        background-blend-mode: darken;
+        width: 100vw;
+        height: 100vh;
+
+
+}

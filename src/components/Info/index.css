@@ -1,10 +1,6 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    
-}
 
-section{
+
+.info-class{
     display: flex;
     width: 100%;
     height: 100%;
@@ -13,6 +9,7 @@ section{
 .edit-1{
     width: 50%;
     height: 50%;
+    color: black;
 
     >p{
         font-size: 20px;
@@ -30,4 +27,4 @@ section{
         height: 100%;
         object-fit: contain;
     }
-} */
+}

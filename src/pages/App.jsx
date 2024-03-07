@@ -6,8 +6,10 @@ function App() {
  
   return (
     <>
+    <div className='app-edit'>
       <NavBar></NavBar>
       <Hero></Hero>
+    </div>
     </>
   )
 }
