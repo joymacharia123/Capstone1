@@ -10,7 +10,7 @@ const Parties = ()=>{
         <div className='parties-edit'>
           <div className='party-party'>
           <div className='party-main'>
-            <div className='party-edit1'>Events______________________________</div>
+            <div className='party-edit1'>Events_________________________</div>
             <div className='party-edit2'>Organise Your Events in our Restaurant</div>
           </div>
           <div>

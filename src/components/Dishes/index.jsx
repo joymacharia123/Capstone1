@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function App() {
   const [cuisines, setCuisine] = useState([]);
   const [selectedCuisine, setSelected] = useState("");
-  const API_KEY = "bcdfc835076f4ba496619db374b88bda";
+  const API_KEY = "08793906b7ea4f458a1f690fd6b327aa";
   const fetchCuisines = async () => {
     const response = await fetch(
       `https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}&cuisine=${selectedCuisine}`
@@ -103,7 +103,7 @@ function App() {
                   <div></div>
                   <div></div>
                 </div>
-                <button onClick={()=>setSelected("")}>See more</button>
+                <button className="seemore-button" onClick={()=>setSelected("")}>See more</button>
               </div>
 
               <div className="cuisines-edit">

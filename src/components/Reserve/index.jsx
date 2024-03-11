@@ -43,6 +43,14 @@ const Reserve = () => {
       console.log("Booked successfully");
       toast.success("Booked successfully");
       setFirstName("")
+      setLastName("")
+      setEmail("")
+      setPhone("")
+      setPeople("")
+      setDate("")
+      setTime("")
+      setOccassion("")
+      setMessage("")
     }
   };
   return (
@@ -72,53 +80,53 @@ const Reserve = () => {
             <div>
               <div>Last Name</div>
               <input
+              value={lastName}
                 onChange={(e) => setLastName(e.target.value)}
                 type="text"
               />
             </div>
             <div>
               <div>Email</div>
-              <input onChange={(e) => setEmail(e.target.value)} type="text" />
+              <input value={email} onChange={(e) => setEmail(e.target.value)} type="text" />
             </div>
           </div>
           <div className="edit-56">
             <div>
               <div>Phone Number</div>
-              <input onChange={(e) => setPhone(e.target.value)} type="number" />
+              <input value={phoneNumber} onChange={(e) => setPhone(e.target.value)} type="number" />
             </div>
             <div>
               <div>Number of People</div>
               <input
+              value={noOfPeople}
                 onChange={(e) => setPeople(e.target.value)}
                 type="number"
               />
             </div>
             <div>
               <div>Date</div>
-              <input onChange={(e) => setDate(e.target.value)} type="date" />
+              <input value={date} onChange={(e) => setDate(e.target.value)} type="date" />
             </div>
           </div>
           <div className="edit-57">
             <div>
               <div>Time</div>
-              <input onChange={(e) => setTime(e.target.value)} type="text" />
+              <input value={time} onChange={(e) => setTime(e.target.value)} type="text" />
             </div>
             <div>
               <div>Occasion</div>
               <input
+              value={occassion}
                 onChange={(e) => setOccassion(e.target.value)}
                 type="text"
               />
             </div>
             <div>
               <div>Message</div>
-              <input onChange={(e) => setMessage(e.target.value)} type="text" />
+              <input value={message} onChange={(e) => setMessage(e.target.value)} type="text" />
             </div>
-            {/* <div className='review-review'>
-                <button className='review-review2'>Book</button>
-            </div> */}
           </div>
-          <button type="submit">Book Now</button>
+          <button  className='submit-button'type="submit">Book Now</button>
         </form>
       </div>
     </>
