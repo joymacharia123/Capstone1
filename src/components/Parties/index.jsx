@@ -2,11 +2,23 @@ import './index.css'
 import Birthday from '../../assets/birthday.avif'
 import Custom from '../../assets/custom.avif'
 import Private from '../../assets/private.avif'
+import { Link } from 'react-router-dom'
 
 const Parties = ()=>{
     return(
         <>
-        <section>
+        <div className='parties-edit'>
+          <div className='party-party'>
+          <div className='party-main'>
+            <div className='party-edit1'>Events______________________________</div>
+            <div className='party-edit2'>Organise Your Events in our Restaurant</div>
+          </div>
+          <div>
+            <Link to='/'>
+            <button className='party-button'>Home</button>
+            </Link>
+          </div>
+          </div>
           <div className='birthday'>
             <div className='text-1'><h1>Birthday Parties</h1>"Celebrate your birthday in absolute splendor at Meraki! Prepare to be enchanted by a culinary extravaganza specially crafted by our passionate chefs, featuring an array of delectable dishes that will tantalize your taste buds and leave you craving for more. Our dedicated team is committed to making your special day truly unforgettable, from personalized service to enchanting decorations that reflect your unique style and personality. Whether you're dreaming of an intimate gathering with close friends or a lavish party with all the bells and whistles, our versatile and elegant space is the perfect setting for your celebration. Let us turn your birthday into an extraordinary experience filled with laughter, joy, and cherished moments. Contact us today to reserve your spot and embark on a journey of indulgence and delight at Meraki!"</div>
             <div>
@@ -25,7 +37,7 @@ const Parties = ()=>{
               <img className='image-1' src={Custom}></img>
             </div>
           </div>
-    </section>
+          </div>
         </>
     )
 }

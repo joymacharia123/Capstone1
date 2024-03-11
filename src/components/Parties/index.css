@@ -1,9 +1,6 @@
-section{
-    color: black;
-    /* background:rgba(0, 0, 0, 0.9)  url('./src/assets/chef-logo.avif');
-    background-size: cover;
-    background-blend-mode: darken; */
-
+.parties-edit{
+    background-color: #0C0B09;
+    padding-left: 50px;
 
     .birthday{
         display: flex;
@@ -15,6 +12,11 @@ section{
             width: 50%;
             height: 50%;
             font-size: 30px;
+            color: white;
+
+            >h1{
+                color: #CDA45E;
+            }
         }
 
         .image-1{
@@ -41,6 +43,11 @@ section{
             width: 50%;
             height: 50%;
             font-size: 30px;
+            color: white;
+
+            >h1{
+                color: #CDA45E;
+            }
         }
 
         .image-1{
@@ -67,6 +74,11 @@ section{
             width: 50%;
             height: 50%;
             font-size: 30px;
+            color: white;
+
+            >h1{
+                color: #CDA45E;
+            }
         }
 
         .image-1{
@@ -82,29 +94,41 @@ section{
         }
     }
 
+    .party-edit2{
+        font-size: 40px;
+        color: #CDA45E;
+        font-weight: bolder;
+        font-style: oblique;
+    }
+
+    .party-edit1{
+        font-size: 25px;
+        color:#8AAAAA ;
+        font-weight: 900;
+    }
+
+    .party-main{
+        margin-bottom: 50px;
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    .party-party{
+        display: flex;
+        gap: 600px;
+        padding-top: 20px;
 
 
+    }
 
+    .party-button{
+        width: 100px;
+        height: 40px;
+        font-size: 20px;
+        background-color: #CDA45E;
+        color: #26231D;
+        border: none;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+  
 }

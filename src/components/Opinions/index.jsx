@@ -4,11 +4,24 @@ import Person2 from '../../assets/person-2.avif'
 import Person3 from '../../assets/person-3.avif'
 import Person4 from '../../assets/person-4.avif'
 import Person5 from '../../assets/person-5.avif'
+import { Link } from 'react-router-dom'
 
 const Opinions = ()=>{
     return(
         <>
-        <section>
+        <div className='persons-edit'>
+            <div className='says-button'>
+            <div className='says-edit'>
+                <div className='says-edit1'>Reviews_______________________</div>
+                <div className='says-edit2'>What they're saying about us</div>
+            </div>
+            <div className='review-button'>
+                <Link to = '/'>
+                    <button className='review-button2'>Home</button>
+                    </Link>
+
+                </div>
+                </div>
             <div className='person-1'>
                 <div className='text-2'>"Meraki is a hidden gem! From the moment I stepped in, I was blown away by the ambiance and warmth of the place. The food was an absolute delight - each dish was expertly prepared and bursting with flavor. The staff were attentive and friendly, making sure our dining experience was nothing short of perfect. I can't wait to come back and try more of their exquisite menu!" - Sarah H."</div>
                 <div>
@@ -39,7 +52,7 @@ const Opinions = ()=>{
                     <img className='image-2' src={Person5}></img>
                 </div>
             </div>
-        </section>
+            </div>
         </>
     )
 }

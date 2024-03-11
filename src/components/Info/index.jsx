@@ -1,10 +1,23 @@
 import './index.css'
 import Table from '../../assets/table-logo.avif'
+import { Link } from 'react-router-dom'
 
 const Info = ()=>{
     return(
         <>
-        <section className='info-class'>
+        <div className='info-class'>
+            <div className='begin-begin'>
+            <div className='begin-2'>
+                <div className='begin-2edit'>About us___________________________</div>
+                <div className='begin-3edit'>Learn more about our Restaurant</div>
+            </div>
+            <div className='begin-button'>
+                <Link to='/'>
+                <button className='begin-button2'>Home</button>
+                </Link>
+            </div>
+            </div>
+            <div className='begin-1'>
             <div className='edit-1' >
             <p>"Welcome to Meraki, where passion meets flavor in every dish we serve. Our journey began with a simple desire to create a culinary experience that goes beyond mere sustenance – we wanted to craft moments of pure delight for our guests. Derived from the Greek word meaning "to do something with soul, creativity, or love," Meraki embodies our commitment to infuse every aspect of our restaurant with this essence.</p>
         <p>Our story is one of love for food and community. Founded by a team of seasoned chefs and food enthusiasts, Meraki is more than just a place to eat; it's a celebration of gastronomic artistry. Drawing inspiration from diverse culinary traditions and local ingredients, we have curated a menu that tantalizes the taste buds and satisfies the soul.</p>
@@ -16,7 +29,8 @@ const Info = ()=>{
             <div className='edit-2'>
                 <img src={Table}></img>
             </div>
-        </section>
+            </div>
+            </div>
         </>
     )
 }

@@ -1,14 +1,14 @@
 section{
-    color: white;
     margin-top: 200px;
     margin-left: 50px;
 
-    .edit-1{
+    .edit-12{
         font-size: 100px;
         font-family: 'Times New Roman', Times, serif;
+        color: white;
     }
 
-    .edit-2{
+    .edit-22{
         font-size: 150px;
         margin-left: 100px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

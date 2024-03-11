@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import About from './pages/About.jsx'
 import Events from './pages/Events.jsx'
 import Reviews from './pages/Reviews.jsx'
+import Menu from './pages/Menu.jsx'
+import Booking from './pages/Booking.jsx'
 
 const urls = [
   {
@@ -24,6 +26,14 @@ const urls = [
   {
     path: '/reviews',
     element:<Reviews/>
+  },
+  {
+    path: '/menu',
+    element:<Menu/>
+  },
+  {
+    path: '/booking',
+    element:<Booking/>
   },
 ]
 
