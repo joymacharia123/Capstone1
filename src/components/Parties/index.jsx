@@ -1,7 +1,7 @@
 import './index.css'
-import Birthday from '../../assets/birthday.avif'
+import Birthday from '../../assets/spark.avif'
 import Custom from '../../assets/custom.avif'
-import Private from '../../assets/private.avif'
+import Private from '../../assets/champ.avif'
 import { Link } from 'react-router-dom'
 
 const Parties = ()=>{
