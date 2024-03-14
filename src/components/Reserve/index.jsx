@@ -23,8 +23,8 @@ const Reserve = () => {
       .from("Booked Tables")
       .insert([
         {
-          last_name: firstName,
-          first_name: lastName,
+          first_name: firstName,
+          last_name: lastName,
           email: email,
           phone_number: phoneNumber,
           number_of_people: noOfPeople,
